@@ -23,7 +23,7 @@ app.use('/user',userRoutes);
 const start = async () => {
     try {
         // console.log('MongoDB URI:', process.env.MONGO_URI);  // Add this line to check the value
-        await mongoose.connect("mongodb+srv://Apeksha:Apeksha@cluster0.eat6d8r.mongodb.net/Book_app", {
+        await mongoose.connect("mongodb+srv://mongo:mongo123@cluster0.tg2evye.mongodb.net/Book_app", {
   
         });
         console.log('Connected to MongoDB');
